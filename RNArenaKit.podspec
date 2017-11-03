@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNArenaKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "RNArenaKit"
   s.description  = <<-DESC
                   RNArenaKit1
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/chenyunjie/RNArenaKit.git", :tag => "master" }
   s.source_files  = "*/*.h"
   s.requires_arc = true
-  s.ios.vendored_libraries = 'libArenaKit.a'
+  s.ios.vendored_libraries = 'libRNArenaKit.a'
   #s.dependency "others"
 
 end
