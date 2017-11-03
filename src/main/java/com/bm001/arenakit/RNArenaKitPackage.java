@@ -1,5 +1,6 @@
 package com.bm001.arenakit;
 
+import com.bm001.arenakit.picker.view.PickerViewModule;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -14,7 +15,7 @@ import java.util.List;
  * Created by heng on 16/9/5.
  */
 
-public class PickerViewPackage implements ReactPackage {
+public class RNArenaKitPackage implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {

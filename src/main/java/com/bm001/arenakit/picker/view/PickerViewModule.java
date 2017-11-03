@@ -1,4 +1,4 @@
-package com.bm001.arenakit;
+package com.bm001.arenakit.picker.view;
 
 import android.app.Activity;
 import android.app.Dialog;
