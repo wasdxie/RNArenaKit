@@ -33,9 +33,10 @@ android {
 repositories {
     mavenCentral()
     maven {url "https://jitpack.io"}
+    jcenter()
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:0.48.3'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
   
