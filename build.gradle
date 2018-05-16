@@ -2,10 +2,11 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
@@ -16,12 +17,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.chenyunjie'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 22
+        minSdkVersion 19
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
@@ -34,9 +35,11 @@ repositories {
     mavenCentral()
     maven {url "https://jitpack.io"}
     jcenter()
+    google()
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:support-v4:26.1.0'
 }
   
